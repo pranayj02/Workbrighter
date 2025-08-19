@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workplace Loneliness Infographic - Work Brighter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400; /* Set default font weight to normal */
+            background-color: #f8fafc;
+        }
+        .wb-teal { color: #00A79D; }
+        .wb-bg-teal { background-color: #00A79D; }
+        .wb-charcoal { color: #333333; }
+        .wb-border-teal { border-color: #00A79D; }
+        .icon-container {
+            width: 64px;
+            height: 64px;
+        }
+        /* Use heavier font weights for headings and bold text */
+        h1, h2, h3, .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+    </style>
+</head>
+<body class="wb-charcoal">
+
+    <div class="max-w-4xl mx-auto p-4 sm:p-8">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl sm:text-4xl font-bold wb-charcoal mb-2 mt-8">Is Your Hybrid Team Silently Struggling?</h1>
+            <p class="text-lg sm:text-xl text-gray-600">Loneliness is more than a feeling. It's a tangible barrier to performance and well-being in the new world of work.</p>
+        </header>
+
+        <!-- The Hook Section -->
+        <section class="bg-white rounded-lg shadow-lg p-6 sm:p-8 mb-12 text-center border-t-4 wb-border-teal">
+            <p class="text-lg text-gray-700 mb-2">The U.S. Surgeon General reveals the health risk of loneliness is comparable to smoking</p>
+            <p class="text-4xl sm:text-5xl font-bold wb-teal">15 cigarettes a day.</p>
+        </section>
+
+        <!-- Costs Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl text-center mb-8">The High Cost of Disconnection</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow p-6 text-center">
+                    <div class="icon-container mx-auto mb-4 flex items-center justify-center rounded-full wb-bg-teal text-white">
+                        <svg xmlns="http://www.w.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Performance Declines</h3>
+                    <p class="text-gray-600 text-sm">Employees show lower task performance and reduced engagement.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow p-6 text-center">
+                    <div class="icon-container mx-auto mb-4 flex items-center justify-center rounded-full wb-bg-teal text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Wellbeing Suffers</h3>
+                    <p class="text-gray-600 text-sm">Loneliness spikes stress and anxiety. Remote employees report more sadness and anger.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow p-6 text-center">
+                    <div class="icon-container mx-auto mb-4 flex items-center justify-center rounded-full wb-bg-teal text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Cognitive Impairment</h3>
+                    <p class="text-gray-600 text-sm">Chronic loneliness hampers focus, increases error rates, and harms creativity.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow p-6 text-center">
+                    <div class="icon-container mx-auto mb-4 flex items-center justify-center rounded-full wb-bg-teal text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Retention Drops</h3>
+                    <p class="text-gray-600 text-sm">Lonely employees are more likely to leave for roles with better social connection.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="bg-white rounded-lg shadow-lg p-6 sm:p-8 mb-12 border-t-4 wb-border-teal">
+            <h2 class="text-2xl sm:text-3xl text-center mb-8">The Human Impact, By the Numbers</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                <div class="text-center">
+                    <p class="text-7xl sm:text-8xl wb-teal font-bold">22%</p>
+                    <p class="text-lg font-semibold">of adults say they always or often feel lonely or isolated.</p>
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p><span class="font-bold text-xl wb-teal">58%</span> of those feeling isolated reported mental health issues.</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p><span class="font-bold text-xl wb-teal">55%</span> reported physical health issues.</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p><span class="font-bold text-xl wb-teal">33%</span> said it affected their ability to do their job.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl text-center mb-2">Leaders Can Rebuild Connection.</h2>
+            <p class="text-lg text-gray-600 text-center mb-8">It's time to re-design our workplace for bonds.</p>
+            <div class="space-y-6">
+                <!-- Step 1 -->
+                <div class="bg-white rounded-lg shadow p-6 flex items-start">
+                    <div class="text-4xl wb-teal mr-6 font-bold">1</div>
+                    <div>
+                        <h3 class="text-lg mb-1">Aim for the Right Bonds (Depth & Breadth)</h3>
+                        <p class="text-gray-600">Ensure every team member has a trusted tie (a mentor or buddy). Simultaneously, help them plug into wider social circles like cross-team projects.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-white rounded-lg shadow p-6 flex items-start">
+                    <div class="text-4xl wb-teal mr-6 font-bold">2</div>
+                    <div>
+                        <h3 class="text-lg mb-1">Make High-Quality Moments Common</h3>
+                        <p class="text-gray-600">Loneliness drops when everyday interactions feel respectful and trusting. Intentionally build small windows for these moments, like pre-meeting check-ins.</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-white rounded-lg shadow p-6 flex items-start">
+                    <div class="text-4xl wb-teal mr-6 font-bold">3</div>
+                    <div>
+                        <h3 class="text-lg mb-1">Treat Connection as a Strategy, Not a Vibe</h3>
+                        <p class="text-gray-600">Make belonging a line item. Set a light pulse on loneliness, share what you learn, and make 1-2 visible tweaks to your team's rituals each quarter.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / CTA -->
+        <footer class="text-center mt-12 pt-8 border-t">
+            <h3 class="text-xl mb-2">Don't leave connection to chance. Make it your organization's strength.</h3>
+            <p class="mb-6">To learn more, read the full <span class="font-semibold wb-teal">Employee Loneliness Leadership Playbook.</span></p>
+            <a href="https://workbrighter.co.uk/" target="_blank" class="inline-block wb-bg-teal text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity" style="font-weight: 600;">
+                Visit Work Brighter
+            </a>
+        </footer>
+
+    </div>
+
+</body>
+</html>
